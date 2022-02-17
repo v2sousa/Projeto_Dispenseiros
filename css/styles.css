@@ -39,15 +39,15 @@ a, i { /* Ancoras e icones */
     justify-content: center; /* Para centralizar o texto com a imagem */
 }
 #logo {
-    width: 40px; /* Define a altura do logo */
-    margin-right: 15px; /* Define Margem entre o logo e o titulo */
+    width: 50px; /* Define a altura do logo */
+    margin-right: 20px; /* Define Margem entre o logo e o titulo */
 }
 #navbar {
     padding: 10px;
     margin: 10px auto; /* faz c/ q/ o icones fiquem espaçados e centralizados */
 }
 #navbar a{
-    width: 80px;
+    width: 100px;
     color: #444;
     text-decoration: none;
 }
@@ -57,7 +57,7 @@ a, i { /* Ancoras e icones */
 /* MAIN IMAGE*/
 .main-image{
     height: 400px; /*ALtura da imagem*/
-    background-image: url(../imagens/art.1.jfif); /*Banner Principal*/
+    background-image: url(../imagens/img.familias.jfif); /*Banner Principal*/
     margin-bottom: 30px; /*Margem inferior*/
     position: relative; /*A posição do banner tem que ser relativa*/
 }
@@ -70,16 +70,19 @@ a, i { /* Ancoras e icones */
 }
 /*GALLERY*/
 #img2 {
-    background-image: url(../imagens/art.2.jfif);
+    background-image: url(../imagens/img.alimentos.jfif);
+    border: 1px solid gray;
 }
 #img3 {
-    background-image: url(../imagens/art.3.jfif);
+    background-image: url(../imagens/img.roupas.jpg);
+    border: 1px solid gray;
 }
 #img4 {
-    background-image: url(../imagens/art.4.jfif);
+    background-image: url(../imagens/img.brinquedos.jfif);
+    border: 1px solid gray;
 }
 #img5 {
-    background-image: url(); /* ADICIONAR IMAGEM AQUI */ 
+    background-image: url(../imagens/img.domesticos.jfif); /* ADICIONAR IMAGEM AQUI */ 
     border: 1px solid gray; /*DEVE SER RETIRADO QUANDO TIVER IMAGEM*/
 }
 #gallery-container h1 {
